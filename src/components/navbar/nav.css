@@ -52,6 +52,23 @@
     font-style: normal;
     font-weight: 600;
     line-height: 120%;
-    text-decoration: none;
+    color: black;
+}
+
+.nav_content:hover {
+    color: var(--color-orange);
+}
+
+.nav_btn {
+    display: flex;
+    padding: 16px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
     color: black;
 }
