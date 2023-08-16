@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./nav.css";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import logo from "../../assets/logo.svg";
 
 const Nav = () => {
@@ -16,7 +16,7 @@ const Nav = () => {
                 <div className="nav_contents">
                     <NavLink className="nav_content">Pricing</NavLink>
                     <NavLink className="nav_content">How it works</NavLink>
-                    <NavLink className="nav_btn btn">Try Mispriced for free</NavLink>
+                    <Link className="nav_btn btn">Try Mispriced for free</Link>
                 </div>
             </div>
         </nav>
