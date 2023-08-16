@@ -1,0 +1,56 @@
+.mission_container {
+    display: flex;
+    width: 100%;
+    padding: 97.5px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-black);
+    color: var(--color-white);
+}
+
+.mission_box {
+    display: flex;
+    width: 1180px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.mission_title {
+    color: var(--color-white);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 21.6px
+}
+
+.mission_info {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    align-self: stretch;
+}
+
+.mission_heading {
+    width: 558px;
+    align-self: stretch;
+    font-family: Helvetica;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 73.2px;
+    letter-spacing: 1.22px;
+}
+
+.mission_content {
+    flex: 1 0 0;
+    align-self: stretch;
+    color: var(--color-white);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
