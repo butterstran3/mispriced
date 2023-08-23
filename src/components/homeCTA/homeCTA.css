@@ -1,0 +1,65 @@
+.homeCTA_container {
+    display: flex;
+    width: 100%;
+    padding: 97.5px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+    background: #F8F8F9;
+    justify-content: center;
+}
+
+.homeCTA_content {
+    display: flex;
+    width: 65%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    align-self: stretch;
+    margin: 0 auto;
+}
+
+.homeCTA_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.homeCTA_header h1 {
+    flex: 1 0 0;
+    color: var(--color-black);
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 73.2px;
+    letter-spacing: 1.22px;
+}
+
+.homeCTA_header p {
+    color: #000;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.homeCTA_btn {
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 3px;
+    border: 1px solid #000;
+    font-family: 'Roboto Mono', monospace;
+    background: #F8F8F9;
+    color: #000;
+    cursor: pointer;
+}

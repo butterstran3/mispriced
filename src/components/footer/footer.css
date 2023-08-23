@@ -1,0 +1,118 @@
+.footer_container {
+    display: flex;
+    width: 100%;
+    padding: 97.5px 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer_content {
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.icon_column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+.footer_logo {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+}
+
+.icons_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+}
+
+.icons_container p {
+    color: #000;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px;
+}
+
+.socials_container {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.social_link {
+    width: 32px;
+    height: 32px;
+    color: #000;
+}
+
+.social_link:hover {
+    color: var(--color-orange);
+    cursor: pointer;
+}
+
+.product_column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.product_column p {
+    display: flex;
+    padding: 16px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #000;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.company_column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.company_column p {
+    display: flex;
+    padding: 16px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #000;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.footer_link {
+    display: flex;
+    padding: 16px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #000;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px;
+}
+
+.footer_link:hover {
+    color: var(--color-orange);
+}

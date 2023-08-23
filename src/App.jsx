@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "./components/navbar/Nav";
-import Homepage from "./components/pages/Homepage";
+import HomePage from "./components/pages/HomePage";
 import { Route, Routes } from 'react-router-dom';
 
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
             <script type="text/javascript" src="https://cdnjs.com/libraries/fullPage.js"></script>
             <Nav/>
             <Routes>
-                <Route path="/" element={<Homepage/>}/>
+                <Route path="/" element={<HomePage/>}/>
             </Routes>
         </>
     )
