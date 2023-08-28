@@ -4,6 +4,7 @@ import PricingHeader from "../pricingHeader/PricingHeader";
 import Guarantee from "../guarantee/Guarantee";
 import PricingCTA from "../pricingCTA/PricingCTA";
 import Footer from "../footer/Footer";
+import Faq from "../faq/Faq";
 
 const PricingPage = () => {
     return (
@@ -13,6 +14,7 @@ const PricingPage = () => {
             <Guarantee/>
             <PricingCTA/>
             <Footer/>
+            <Faq/>
         </>
     )
 }
