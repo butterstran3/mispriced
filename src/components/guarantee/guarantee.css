@@ -1,0 +1,58 @@
+.guarantee_container {
+    display: flex;
+    width: 100%;
+    padding: 97.5px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fefefe;
+}
+
+.guarantee_content {
+    display: flex;
+    width: 65%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.guarantee_heading {
+    color: var(--color-orange);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px;
+    width: 45%;
+}
+
+.guarantee_qna {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    align-self: stretch;
+}
+
+.guarantee_question {
+    color: #000;
+    font-family: Helvetica;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 73.2px;
+    letter-spacing: 1.22px;
+    width: 45%;
+    align-self: stretch;
+}
+
+.guarantee_answer {
+    color: #000;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+

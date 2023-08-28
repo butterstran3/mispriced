@@ -1,12 +1,19 @@
 import React from "react";
 import Pricing from "../pricing/Pricing";
-import "./pricingpage.css";
+import PricingHeader from "../pricingHeader/PricingHeader";
+import Guarantee from "../guarantee/Guarantee";
+import PricingCTA from "../pricingCTA/PricingCTA";
+import Footer from "../footer/Footer";
 
 const PricingPage = () => {
     return (
-        <div className="yoza">
+        <>
+            <PricingHeader/>
             <Pricing/>
-        </div>
+            <Guarantee/>
+            <PricingCTA/>
+            <Footer/>
+        </>
     )
 }
 
