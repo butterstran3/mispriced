@@ -23,7 +23,7 @@ const Footer = () => {
                 </div>
                 <div className="product_column">
                     <p>Product</p>
-                    <Link className="footer_link">Pricing</Link>
+                    <Link className="footer_link" to="/pricing">Pricing</Link>
                     <Link className="footer_link">How it works</Link>
                     <Link className="footer_link">Other Services</Link>
                 </div>

@@ -9,7 +9,7 @@ import Footer from "../footer/Footer";
 import Header from "../header/Header";
 
 const HomePage = () => {
-    
+
 
     return (
         <>
@@ -20,7 +20,7 @@ const HomePage = () => {
             <Testimonials/>
             <HomeCTA/>
             <Footer/>
-            <Header {...{}}/>
+            <Header title="How it works" subtitle="Join the Mispriced community on Discord or the web, where betting enthusiasts..."/>
         </>
     )
 }
