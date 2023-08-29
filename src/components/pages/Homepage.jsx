@@ -6,9 +6,11 @@ import HomePricing from "../homepricing/HomePricing";
 import Testimonials from "../testimonials/Testimonials";
 import HomeCTA from "../homeCTA/HomeCTA";
 import Footer from "../footer/Footer";
-import Faq from "../faq/Faq";
+import Header from "../header/Header";
 
 const HomePage = () => {
+    
+
     return (
         <>
             <Home/>
@@ -18,7 +20,7 @@ const HomePage = () => {
             <Testimonials/>
             <HomeCTA/>
             <Footer/>
-            <Faq/>
+            <Header {...{}}/>
         </>
     )
 }
