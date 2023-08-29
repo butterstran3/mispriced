@@ -25,11 +25,11 @@ const Footer = () => {
                     <p>Product</p>
                     <Link className="footer_link" to="/pricing">Pricing</Link>
                     <Link className="footer_link">How it works</Link>
-                    <Link className="footer_link">Other Services</Link>
+                    <Link className="footer_link" to="/services">Other Services</Link>
                 </div>
                 <div className="company_column">
                     <p>Company</p>
-                    <Link className="footer_link">About Mispriced</Link>
+                    <Link className="footer_link" to="/company">About Mispriced</Link>
                     <Link className="footer_link">Contact Us</Link>
                     <Link className="footer_link">Privacy Policy</Link>
                 </div>
