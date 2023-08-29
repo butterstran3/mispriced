@@ -6,7 +6,7 @@ import HomePricing from "../homepricing/HomePricing";
 import Testimonials from "../testimonials/Testimonials";
 import HomeCTA from "../homeCTA/HomeCTA";
 import Footer from "../footer/Footer";
-import Header from "../header/Header";
+// import Header from "../header/Header";
 
 const HomePage = () => {
 
@@ -20,7 +20,6 @@ const HomePage = () => {
             <Testimonials/>
             <HomeCTA/>
             <Footer/>
-            <Header title="How it works" subtitle="Join the Mispriced community on Discord or the web, where betting enthusiasts..."/>
         </>
     )
 }

@@ -27,7 +27,7 @@ const Features = () => {
                             <p>Focusing on Expected Value, our algorithms examine last-minute price shifts to uncover instances where bookmakers provide notable advantages for members in sports and racing promos.</p>
                         </div>
                         <div className="card_image">
-                            <img alt="algorithm" src={alerts}></img>
+                            <img alt="alerts" src={alerts}></img>
                         </div>
                     </div>
                     <div className="card">
@@ -36,7 +36,7 @@ const Features = () => {
                             <p>Focusing on Expected Value, our algorithms examine last-minute price shifts to uncover instances where bookmakers provide notable advantages for members in sports and racing promos.</p>
                         </div>
                         <div className="card_image">
-                            <img alt="algorithm" src={iq}></img>
+                            <img alt="iq" src={iq}></img>
                         </div>
                     </div>
                 </div>
