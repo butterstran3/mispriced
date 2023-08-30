@@ -15,7 +15,7 @@ const Nav = () => {
                 </div>
                 <div className="nav_contents">
                     <NavLink className="nav_content" to="/pricing">Pricing</NavLink>
-                    <NavLink className="nav_content">How it works</NavLink>
+                    <NavLink className="nav_content" to="/howItWorks">How it works</NavLink>
                     <Link className="nav_btn btn">Try Mispriced for free</Link>
                 </div>
             </div>
