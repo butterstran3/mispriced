@@ -5,8 +5,6 @@ import Features from "../features/Features";
 import HomePricing from "../homepricing/HomePricing";
 import Testimonials from "../testimonials/Testimonials";
 import HomeCTA from "../homeCTA/HomeCTA";
-import Footer from "../footer/Footer";
-import Qna from "../qna/Qna";
 
 const HomePage = () => {
 
@@ -19,8 +17,6 @@ const HomePage = () => {
             <HomePricing/>
             <Testimonials/>
             <HomeCTA/>
-            <Footer/>
-            <Qna/>
         </>
     )
 }

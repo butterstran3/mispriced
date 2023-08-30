@@ -6,6 +6,7 @@ import PricingPage from "./components/pages/PricingPage";
 import ServicesPage from "./components/pages/ServicesPage";
 import CompanyPage from "./components/pages/CompanyPage";
 import HowItWorks from "./components/pages/HowItWorks";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
     return (
@@ -19,6 +20,7 @@ const App = () => {
                 <Route path="/company" element={<CompanyPage/>}/>
                 <Route path="/howItWorks" element={<HowItWorks/>}/>
             </Routes>
+            <Footer/>
         </>
     )
 }

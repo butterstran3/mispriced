@@ -1,6 +1,5 @@
 import React from "react";
 import Faq from "../faq/Faq";
-import Footer from "../footer/Footer";
 import Header from "../header/Header";
 import HowCTA from "../howCTA/HowCTA";
 import Invite from "../invite/Invite";
@@ -18,7 +17,6 @@ const HowItWorks = () => {
             <Qna/>
             <Faq/>
             <HowCTA/>
-            <Footer/>
         </>
     )
 }

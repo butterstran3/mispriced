@@ -12,7 +12,7 @@ const Features = () => {
                     <h1>How we empower you</h1>
                 </div>
                 <div className="card_container">
-                    <div className="card">
+                    <div className="feature_card">
                         <div className="card_content">
                             <h4>Advanced Algorithm</h4>
                             <p>Focusing on Expected Value, our algorithms examine last-minute price shifts to uncover instances where bookmakers provide notable advantages for members in sports and racing promos.</p>
@@ -21,7 +21,7 @@ const Features = () => {
                             <img alt="algorithm" src={algorithm}></img>
                         </div>
                     </div>
-                    <div className="card_reverse">
+                    <div className="feature_card_reverse">
                         <div className="card_content">
                             <h4>Alerts</h4>
                             <p>Focusing on Expected Value, our algorithms examine last-minute price shifts to uncover instances where bookmakers provide notable advantages for members in sports and racing promos.</p>
@@ -30,7 +30,7 @@ const Features = () => {
                             <img alt="alerts" src={alerts}></img>
                         </div>
                     </div>
-                    <div className="card">
+                    <div className="feature_card">
                         <div className="card_content">
                             <h4>Grow your Betting IQ</h4>
                             <p>Focusing on Expected Value, our algorithms examine last-minute price shifts to uncover instances where bookmakers provide notable advantages for members in sports and racing promos.</p>
