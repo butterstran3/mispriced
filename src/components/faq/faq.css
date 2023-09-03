@@ -92,13 +92,31 @@
     transition: all 0.1s ease-in;
 }
 
-@keyframes fade {
-    from {
-        opacity: 0;
-        transform: translateY(-10);
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+    .faq_header h1 {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
     }
-    to {
-        opacity: 1;
-        transform: translateY(0);
+
+    .faq_header {
+        width: 80%;
+    }
+
+    .faq_list {
+        width: 80%;
+    }
+
+    .question {
+        padding: 5%;
+        max-height: none;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .question {
+        padding: 10%;
+        font-size: 1rem;
     }
 }

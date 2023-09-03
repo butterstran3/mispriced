@@ -83,7 +83,7 @@
     font-weight: 600;
 }
 
-.price_cards {
+.pricing_cards {
     display: flex;
     align-items: flex-start;
     gap: 56px;
@@ -92,7 +92,7 @@
     align-items: center;
 }
 
-.price_card {
+.pricing_card {
     display: flex;
     height: 870px;
     padding: 64px 36px;
@@ -197,4 +197,23 @@
 .pricing_btn.btn:hover {
     background: var(--color-orange);
     color: var(--color-white);
+}
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+    .pricing_cards {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .pricing_cards {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .pricing_toggle {
+        gap: 10px;
+        padding: 0 15px;
+    }
 }

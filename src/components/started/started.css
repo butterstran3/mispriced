@@ -67,3 +67,26 @@
     cursor: pointer;
     background: none;
 }
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+    .started_container {
+        padding: 97.5px 15px;
+    }
+
+    .started_content {
+        width: 90%;
+        gap: 60px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .started_content {
+        flex-direction: column;
+    }
+
+    .started_content img {
+        height: 350px;
+        width: 350px;
+    }
+}

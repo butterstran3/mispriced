@@ -33,58 +33,15 @@
     letter-spacing: 1.22px;
 }
 
-.card_container {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 40px;
-}
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+    .company_heading {
+        font-size: 1rem;
+        line-height: 3rem;
+        padding: 0 1%;
+    }
 
-.card {
-    display: flex;
-    padding: 48px;
-    justify-content: center;
-    align-items: center;
-    gap: 60px;
-    align-self: stretch;
-    background: #fefefe;
-    width: 100%;
-}
-
-.card_reverse {
-    display: flex;
-    padding: 48px;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-    gap: 60px;
-    align-self: stretch;
-    background: #fefefe;
-    width: 100%;
-}
-
-.card_content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 32px;
-    flex: 1 0 0;
-    align-self: stretch;
-}
-
-.card_content p {
-    color: var(--color-black);
-    font-family: 'Roboto Mono', monospace;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-}
-
-.card_image img {
-    width: 200px;
-    height: 200px;
-    flex-shrink: 0;
+    .company_content {
+        width: 90%;
+    }
 }

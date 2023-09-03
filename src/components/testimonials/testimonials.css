@@ -108,3 +108,22 @@
     line-height: 19.2px;
     flex: 1 0 0;
 }
+
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+    .testimonial_cards {
+        flex-direction: column;
+    }
+
+    .testimonials_content {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .testimonials_heading h1 {
+        font-size: 2rem;
+        line-height: 3.2rem;
+    }
+}

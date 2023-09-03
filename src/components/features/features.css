@@ -99,3 +99,63 @@
     height: 200px;
     flex-shrink: 0;
 }
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+    .features_container {
+        padding: 15% 10%;
+    }
+
+    .features_content {
+        width: 100%;
+    }
+
+    .features_heading h1 {
+        font-size: 2.2rem;
+        line-height: 3.5rem;
+    }
+
+    .feature_card {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .feature_card_reverse {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .card_content p {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .features_container {
+        padding: 20% 10%;
+    }
+
+    .features_content {
+        width: 100%;
+    }
+
+    .features_heading h1 {
+        font-size: 2.2rem;
+        line-height: 3.5rem;
+    }
+
+    .feature_card {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .feature_card_reverse {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .card_content p {
+        font-size: 1rem;
+    }
+}

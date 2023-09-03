@@ -6,7 +6,6 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    height: 1100px;
     background: #F8F8F9;
 }
 
@@ -26,7 +25,7 @@
     align-items: flex-start;
     gap: 56px;
     flex: 1 0 0;
-    max-width: 30%;
+    max-width: 25%;
 }
 
 .pricing_header {
@@ -35,13 +34,180 @@
     align-items: flex-start;
     gap: 32px;
     align-self: stretch;
-    width: 100%;
 }
 
-.component_container {
-    max-width: 60%;
+.price_btn {
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
-.pricing_component {
-    width: 100%;
+.pricing_header h1 {
+    color: #000;
+    font-family: Helvetica;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 73.2px;
+    letter-spacing: 1.22px;
+}
+
+.pricing_header p {
+    color: #000;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.price_btn {
+    color: #000;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19.2px;
+}
+
+.price_component {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 40px;
+    max-width: 75%;
+}
+
+.price_toggle {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    
+}
+
+.price_toggle p {
+    color: #414141;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px;
+}
+
+.price_cards {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.price_card {
+    display: flex;
+    height: 754px;
+    padding: 64px 32px;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+    background: #FEFEFE;
+    box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+    .pricing_content {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .pricing_intro {
+        width: 100%;
+        max-width: none;
+    }
+
+    .pricing_header {
+        width: 100%;
+    }
+
+    .pricing_header h1 {
+        font-size: 3rem;
+    }
+
+    .price_component {
+        flex-direction: column;
+        width: 100%;
+        max-width: none;
+    }
+
+    .toggle_container {
+        min-width: 81px;
+    }
+
+    .annual {
+        justify-content: right;
+        text-align: right;
+    }
+
+    .price_cards {
+        width: 100%;
+    }
+
+    .price_card {
+        padding: 64px 24px;
+    }
+
+    .price_toggle {
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .pricing_content {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .pricing_intro {
+        width: 100%;
+        max-width: none;
+    }
+
+    .pricing_header {
+        width: 100%;
+    }
+
+    .pricing_header h1 {
+        font-size: 3rem;
+    }
+
+    .price_component {
+        flex-direction: column;
+        width: 100%;
+        max-width: none;
+    }
+
+    .price_toggle {
+        gap: 5px;
+    }
+
+    .toggle_container {
+        min-width: 81px;
+    }
+
+    .annual {
+        justify-content: right;
+        text-align: right;
+    }
+
+    .price_cards {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+
 }

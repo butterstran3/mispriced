@@ -116,3 +116,18 @@
 .footer_link:hover {
     color: var(--color-orange);
 }
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+    .footer_content {
+        gap: 75px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer_content {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+}

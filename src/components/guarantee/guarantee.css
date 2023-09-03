@@ -56,3 +56,34 @@
     align-self: stretch;
 }
 
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+    .guarantee_content {
+        width: 90%;
+        padding: 0 5%;
+    }
+
+    .guarantee_qna {
+        gap: 40px;
+    }
+
+    .guarantee_question {
+        font-size: 2.7rem;
+    }
+
+    .guarantee_answer {
+        padding-top: 3%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .guarantee_qna {
+        flex-direction: column;
+    }
+
+    .guarantee_question {
+        width: 100%;
+        font-size: 2.2rem;
+        line-height: 3.5rem;
+    }
+}

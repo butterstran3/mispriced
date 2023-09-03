@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./home.css";
+import landing from "../../assets/landing_page.png";
 
 const Home = () => {
 
@@ -13,7 +14,7 @@ const Home = () => {
                     <Link className="home_btn btn">Try Mispriced for free</Link>
                 </div>
                 <div className="home_image">
-                    
+                    <img alt="landing" src={landing}></img>
                 </div>
             </div>
         </div>

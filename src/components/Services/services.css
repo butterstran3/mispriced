@@ -88,3 +88,47 @@
     height: 200px;
     flex-shrink: 0;
 }
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+    .services_heading {
+        font-size: 1rem;
+        line-height: 3rem;
+        padding: 0 1%;
+    }
+
+    .services_content {
+        width: 90%;
+    }
+
+    .card {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .card_reverse {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .card_content p {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .card_reverse {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .card_content p {
+        font-size: 1rem;
+    }
+}

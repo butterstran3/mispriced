@@ -34,7 +34,7 @@
 }
 
 .mission_heading {
-    width: 558px;
+    width: 47%;
     align-self: stretch;
     font-family: Helvetica;
     font-size: 1.8rem;
@@ -53,4 +53,42 @@
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+    width: 45%;
+}
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+    .mission_container {
+        padding: 25% 10%;
+    }
+
+    .mission_box {
+        width: 90%;
+    }
+
+    .mission_info {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .mission_heading {
+        width: 100%;
+    }
+
+    .mission_heading h1 {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .mission_content {
+        width: 100%;
+        line-height: 2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .mission_heading h1 {
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
 }

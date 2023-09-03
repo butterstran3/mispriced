@@ -49,3 +49,26 @@
     line-height: 24px;
     align-self: stretch;
 }
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+    .subscribe_container {
+        padding: 97.5px 15px;
+    }
+
+    .subscribe_content {
+        width: 90%;
+        gap: 60px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .subscribe_content {
+        flex-direction: column-reverse;
+    }
+
+    .subscribe_content img {
+        height: 350px;
+        width: 350px;
+    }
+}

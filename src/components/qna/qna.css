@@ -55,3 +55,31 @@
     flex: 1 0 0;
     align-self: stretch;
 }
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+    .qna_content {
+        width: 80%;
+    }
+
+    .qna_section {
+        flex-direction: column;
+        gap: 60px;
+        width: 100%;
+    }
+
+    .qna_question {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .qna_title {
+        width: 90%;
+    }
+
+    .qna_question {
+        font-size: 2.5rem;
+        line-height: 3.2rem;
+    }
+}
