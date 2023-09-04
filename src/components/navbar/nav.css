@@ -9,6 +9,8 @@
     align-items: center;
     gap: 10px;
     flex-shrink: 0;
+    background-color: #FEFEFE;
+    z-index: 100;
 }
 
 .nav_container {
@@ -73,43 +75,107 @@
     color: black;
 }
 
-.mobile_container {
-    width: 100%;
+.mobile_menu {
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger .bar_1, .bar_2, .bar_3 {
+    width: 46.666667px;
+    height: 3px;
+    background: none;
+    margin: 8px 16px 8px 0;
+    border: 2px solid black;
+    transition: 0.4s;
+}
+
+.open .bar_1 {
+    -webkit-transform: rotate(-45deg) translate(-8px, 8px);
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.open .bar_2 {
+    opacity: 0;
+}
+
+.open .bar_3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.open.mobile_contents {
     display: flex;
-    height: 70px;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    background: #FEFEFE;
+    justify-content: center;
+    background: white;
 }
 
 .mobile_contents {
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.mobile_logo {
-    height: 70px;
-    width: 70px;
-    background: #FEFEFE;
-}
-
-.modal_btn {
-    height: 50px;
-    width: 50px;
-    background: #FEFEFE;
+    display: none;
+    position: fixed;
+    top: 100px;
+    left: 0;
+    height: calc(100vh - 100px);
+    width: 100%;
+    z-index: 60;
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
-    .modal_btn {
-        padding-top: 1.5%;
+    .nav_contents {
+        display: none;
+    }
+
+    .nav_container {
+        width: 90%;
+    }
+
+    .mobile_menu {
+        display: block;
+    }
+
+    .container {
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
+
+
+    .mobile_content {
+        display: flex;
+        padding-bottom: 50px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1.1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 19.2px;
+        color: black;
+    }
+
+    .mobile_btn {
+        display: flex;
+        padding: 16px 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1.1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 19.2px;
+        color: black;
+    }
+
+    .mobile_contents {
+        padding-bottom: 100px;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .modal_btn {
-        padding-top: 2.5%;
-    }
+
 }

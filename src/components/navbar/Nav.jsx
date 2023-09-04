@@ -1,60 +1,45 @@
-import { React, useState, useEffect } from "react";
+import React from "react";
 import "./nav.css";
 import { NavLink, Link } from "react-router-dom";
 import logo from "../../assets/logo.svg";
-import menu from "../../assets/menu.svg";
 
 const Nav = () => {
 
-    const [mobileActive, setMobileActive] = useState(false);
-    const [mobileNav, setMobileNav] = useState(false);
+    const toggle = () => {
+        let button = document.querySelector(".hamburger")
+        button.classList.toggle("open")
+        let menu = document.querySelector(".mobile_contents")
+        menu.classList.toggle("open")
+    };
 
-    useEffect(() => {
-        const checkIsPhone = () => {
-            if (window.innerWidth <= 1024) {
-                setMobileActive(true);
-            } else {
-                setMobileActive(false);
-            }
-        };
-
-        checkIsPhone();
-        window.addEventListener('resize', checkIsPhone);
-        
-        return () => {
-            window.removeEventListener('resize', checkIsPhone);
-        };
-    }, []);
-
-    if (mobileActive && !mobileNav) {
-        return (
-            <nav className="mobile_container">
-                <div className="mobile_contents">
+    return (
+        <nav className="container">
+            <div className="nav_container">
+                <div className="nav_logo">
                     <NavLink to="/">
-                        <img alt="logo" className="mobile_logo" src={logo}/>
+                        <img alt="logo" className="logo" src={logo}/>
                     </NavLink>
-                    <button className="modal_btn"><img className="modal_btn" src={menu}></img></button>
                 </div>
-            </nav>
-        )
-    } else {
-        return (
-            <nav className="container">
-                <div className="nav_container">
-                    <div className="nav_logo">
-                        <NavLink to="/">
-                            <img alt="logo" className="logo" src={logo}/>
-                        </NavLink>
+                <div className="nav_contents">
+                    <NavLink className="nav_content" to="/pricing">Pricing</NavLink>
+                    <NavLink className="nav_content" to="/howItWorks">How it works</NavLink>
+                    <Link className="nav_btn btn">Try Mispriced for free</Link>
+                </div>
+                <div className="mobile_menu">
+                    <div className="hamburger" onClick={toggle}>
+                        <div className="bar_1"></div>
+                        <div className="bar_2"></div>
+                        <div className="bar_3"></div>
                     </div>
-                    <div className="nav_contents">
-                        <NavLink className="nav_content" to="/pricing">Pricing</NavLink>
-                        <NavLink className="nav_content" to="/howItWorks">How it works</NavLink>
-                        <Link className="nav_btn btn">Try Mispriced for free</Link>
+                    <div className="mobile_contents">
+                        <NavLink className="mobile_content" to="/pricing" onClick={toggle}>Pricing</NavLink>
+                        <NavLink className="mobile_content" to="/howItWorks" onClick={toggle}>How it works</NavLink>
+                        <Link className="mobile_btn btn" onClick={toggle}>Try Mispriced for free</Link>
                     </div>
                 </div>
-            </nav>
-        )
-    }
+            </div>
+        </nav>
+    )
 }
 
 export default Nav;
