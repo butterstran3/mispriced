@@ -10,7 +10,7 @@ const PricingCTA = () => {
                     <p>
                         We completely understand. That’s why we offer a 3-day free trial - with no strings attached! 
                         If you still have any queries or need guidance, our dedicated team is ready to help. 
-                        Contact us here and we’ll go from there!
+                        Contact us <a className="email_link" href="mailto:contact@mispriced.io">here</a> and we’ll go from there!
                     </p>
                 </div>
                 <button className="CTA_btn btn">Try Mispriced for free</button>

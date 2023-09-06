@@ -26,7 +26,7 @@ const Footer = () => {
                         <p>Product</p>
                         <Link className="footer_link" to="/pricing">Pricing</Link>
                         <Link className="footer_link" to="howItWorks">How it works</Link>
-                        <Link className="footer_link" to="/services">Other Services</Link>
+                        <Link className="footer_link" to="/services">Other services</Link>
                     </div>
                     <div className="company_column">
                         <p>Company</p>

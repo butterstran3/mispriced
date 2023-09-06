@@ -14,7 +14,7 @@ const Services = () => {
                 <div className="card_container">
                     <div className="card">
                         <div className="card_content">
-                            <h4>Automated Betting Bot - FRED</h4>
+                            <h4>Fred (Automated Betting)</h4>
                             <p>We also provide an option for users to set up a budget and subscribe to automated betting, which will automatically place the bet for them on their behalf.</p>
                         </div>
                         <div className="card_image">

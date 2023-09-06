@@ -58,8 +58,8 @@
 }
 
 .home_image img {
-    width: 350px;
-    height: 350px;
+    width: 500px;
+    height: 500px;
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
@@ -75,13 +75,18 @@
     }
 
     .home_info h1 {
-        font-size: 3.5rem;
+        font-size: 3rem;
         line-height: 75px;
     }
 
     .home_image {
         justify-content: center;
         align-items: center;
+    }
+
+    .home_image img {
+        height: 350px;
+        width: 350px;
     }
 }
 

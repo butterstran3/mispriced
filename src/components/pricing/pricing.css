@@ -124,7 +124,8 @@
     align-items: flex-start;
     gap: 24px;
     align-self: stretch;
-    width: 65%;
+    width: 80%;
+    padding-left: 15px;
 }
 
 .pricing_plan h2 {
@@ -174,18 +175,16 @@
     display: flex;
     flex-direction: column;
     border-top: 1px solid var(--light-grey-subtitle, #C7C7C7);
-    width: 300px;
 }
 
 .discount {
     color: var(--color-orange);
     font-family: 'Roboto Mono', monospace;
-    font-size: 18px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 700;
     line-height: 24px;
     text-align: left;
-    width: 300px;
 }
 
 .pricing_btn.btn {
@@ -217,7 +216,23 @@
     }
 
     .pricing_toggle {
-        gap: 10px;
-        padding: 0 15px;
+        gap: 5px;
+        padding: 0 20px;
+    }
+
+    .feature {
+        font-size: 1rem;
+    }
+
+    .discount h4 {
+        font-size: 1rem;
+    }
+    
+    .price_card {
+        padding: 64px 24px;
+    }
+
+    .plan_info {
+        width: 260px;
     }
 }

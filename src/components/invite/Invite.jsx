@@ -16,7 +16,7 @@ const Invite = () => {
                             Ensure you have a verified Discord account before joining.
                             <br></br>
                             <br></br>
-                            To create a Discord account go here!
+                            To create a Discord account go <a href="https://discord.gg/">here</a>!
                         </p>
                     </div>
                     <Link className="invite_btn btn" to="https://discord.gg/VR3ncXNzG6">Join our Discord</Link>
