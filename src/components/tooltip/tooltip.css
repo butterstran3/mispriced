@@ -16,3 +16,18 @@
     padding: 1rem;
     line-height: 1rem;
 }
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 600px) {
+    .tooltip_container {
+        display: none;
+    }
+
+    .tooltip {
+        display: none;
+    }
+}
