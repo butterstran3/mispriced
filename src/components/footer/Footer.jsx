@@ -21,17 +21,17 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="product_column">
-                    <p>Product</p>
-                    <Link className="footer_link" to="/pricing">Pricing</Link>
-                    <Link className="footer_link">How it works</Link>
-                    <Link className="footer_link" to="/services">Other Services</Link>
-                </div>
-                <div className="company_column">
-                    <p>Company</p>
-                    <Link className="footer_link" to="/company">About Mispriced</Link>
-                    {/* <Link className="footer_link">Contact Us</Link>
-                    <Link className="footer_link">Privacy Policy</Link> */}
+                <div className="footer_pages">
+                    <div className="product_column">
+                        <p>Product</p>
+                        <Link className="footer_link" to="/pricing">Pricing</Link>
+                        <Link className="footer_link" to="howItWorks">How it works</Link>
+                        <Link className="footer_link" to="/services">Other Services</Link>
+                    </div>
+                    <div className="company_column">
+                        <p>Company</p>
+                        <Link className="footer_link" to="/company">About</Link>
+                    </div>
                 </div>
             </div>
         </div>

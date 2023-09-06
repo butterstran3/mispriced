@@ -116,7 +116,7 @@
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1500px) {
     .pricing_content {
         width: 90%;
         flex-direction: column;
@@ -152,6 +152,7 @@
 
     .price_cards {
         width: 100%;
+        justify-content: center;
     }
 
     .price_card {
@@ -204,7 +205,7 @@
     }
 
     .price_cards {
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
         max-width: 100%;

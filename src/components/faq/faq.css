@@ -76,7 +76,7 @@
     background: var(--color-white);
     color: #000;
     font-family: 'Roboto Mono', monospace;
-    font-size: 18px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
@@ -104,7 +104,7 @@
     }
 
     .faq_list {
-        width: 80%;
+        width: 80%
     }
 
     .question {
@@ -118,5 +118,18 @@
     .question {
         padding: 10%;
         font-size: 1rem;
+    }
+
+    .active.answer {
+        padding: 0 10% 32px 10%;
+    }
+
+    .faq_list {
+        width: 100%;
+        gap: 4px;
+    }
+
+    .question {
+        line-height: 24px;
     }
 }

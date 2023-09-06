@@ -167,6 +167,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 21.6px;
+    justify-content: space-between;
 }
 
 .plan_features {
@@ -192,12 +193,15 @@
     background: var(--color-white);
     font-weight: 500;
     font-size: 1rem;
+    cursor: pointer;
+    color: var(--color-black);
 }
 
 .pricing_btn.btn:hover {
     background: var(--color-orange);
     color: var(--color-white);
 }
+
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
@@ -208,7 +212,7 @@
 
 @media screen and (max-width: 600px) {
     .pricing_cards {
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap: 60px;
     }
 

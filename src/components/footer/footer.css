@@ -122,6 +122,12 @@
     .footer_content {
         gap: 75px;
     }
+
+    .footer_pages {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -129,5 +135,14 @@
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+    }
+
+    .footer_logo {
+        display: none;
+    }
+
+    .socials_container {
+        width: 100%;
+        justify-content: center;
     }
 }

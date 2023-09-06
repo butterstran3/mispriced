@@ -11,7 +11,7 @@ const HowCTA = () => {
                         Can’t find the answer you’re looking for? Please chat to our friendly team.
                     </p>
                 </div>
-                <button className="CTA_btn btn">Contact us here</button>
+                <a href="mailto:contact@mispriced.io" className="CTA_btn btn">Contact us here</a>
             </div>
         </div>
     )

@@ -1,6 +1,7 @@
 import React from "react";
 import "./started.css";
 import started from "../../assets/get_started.png";
+import { Link } from "react-router-dom";
 
 const Started = () => {
     return (
@@ -17,7 +18,7 @@ const Started = () => {
                             You can choose to try our 7-day free trial or subscribe to a plan immediately!
                         </p>
                     </div>
-                    <button className="started_btn btn">Join our Discord</button>
+                    <Link className="started_btn btn" to="https://discord.gg/VR3ncXNzG6">Join our Discord</Link>
                 </div>
                 <img alt="started" src={started}></img>
             </div>

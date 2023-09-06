@@ -1,6 +1,7 @@
 import React from "react";
 import "./invite.css";
 import discord from "../../assets/mispriced_discord.png";
+import { Link } from "react-router-dom";
 
 const Invite = () => {
     return (
@@ -18,7 +19,7 @@ const Invite = () => {
                             To create a Discord account go here!
                         </p>
                     </div>
-                    <button className="invite_btn btn">Join our Discord</button>
+                    <Link className="invite_btn btn" to="https://discord.gg/VR3ncXNzG6">Join our Discord</Link>
                 </div>
             </div>
         </div>

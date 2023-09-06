@@ -1,5 +1,8 @@
 import { useState, React }  from "react";
 import "./pricing.css";
+import { HiOutlineExclamationCircle } from "react-icons/hi";
+import { Link } from "react-router-dom";
+import Tooltip from "../tooltip/Tooltip";
 
 const Pricing = () => {
     
@@ -52,7 +55,7 @@ const Pricing = () => {
                             </div>
                         </div>
                         <div className="button_container">
-                            <button className="pricing_btn btn">Select plan</button>
+                            <Link className="pricing_btn btn" to="https://launchpass.com/mispriced/weekly-membership">Select plan</Link>
                         </div>
                     </div>
                     <div className="pricing_card">
@@ -74,10 +77,15 @@ const Pricing = () => {
                                 <div className="feature">Esports tips</div>
                                 <div className="feature">Betting tools and guides</div>
                                 <div className="feature">Punter community</div>
-                                <div className="feature">Fred</div>
+                                <div className="feature">
+                                    Fred
+                                    <Tooltip text="Fred is our automated betting bot, allowing members to bet more frequently (no manual work).">
+                                        <HiOutlineExclamationCircle/>
+                                    </Tooltip>
+                                </div>
                             </div>
                             <div className="btn_container">
-                                <button className="pricing_btn btn">Select plan</button>
+                                <Link className="pricing_btn btn" to="https://launchpass.com/mispriced/monthly-membership">Select plan</Link>
                             </div>
                         </div>
                     </div>

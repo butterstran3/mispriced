@@ -1,5 +1,7 @@
 import { React, useState } from "react";
 import { Link } from "react-router-dom";
+import Tooltip from "../tooltip/Tooltip";
+import { HiOutlineExclamationCircle } from "react-icons/hi";
 import "./homepricing.css";
 
 const HomePricing = () => {
@@ -17,7 +19,7 @@ const HomePricing = () => {
                         </p>
                     </div>
                     <div className="btn_container">
-                        <Link className="price_btn btn">See full pricing details</Link>
+                        <Link className="price_btn btn" to="/pricing">See full pricing details</Link>
                     </div>
                 </div>
                 <div className="price_component">
@@ -84,7 +86,12 @@ const HomePricing = () => {
                                     <div className="feature">Esports tips</div>
                                     <div className="feature">Betting tools and guides</div>
                                     <div className="feature">Punter community</div>
-                                    <div className="feature">Fred</div>
+                                    <div className="feature">
+                                        Fred
+                                        <Tooltip text="Fred is our automated betting bot, allowing members to bet more frequently (no manual work).">
+                                            <HiOutlineExclamationCircle/>
+                                        </Tooltip>
+                                    </div>
                                 </div>
                             </div>
                         </div>
