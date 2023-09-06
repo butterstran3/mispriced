@@ -52,13 +52,14 @@
 }
 
 .home_image {
+    display: flex;
     width: 50%;
     justify-content: flex-start;
 }
 
 .home_image img {
-    width: 100%;
-    aspect-ratio: 1/1;
+    width: 350px;
+    height: 350px;
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
@@ -66,6 +67,7 @@
     .home_content {
         width: 100%;
         padding: 0 5%;
+        gap: 80px;
     }
 
     .home_info {
@@ -78,8 +80,8 @@
     }
 
     .home_image {
-        width: 500px;
-        aspect-ratio: 1/1;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -102,10 +104,5 @@
     .home_info h1 {
         font-size: 3rem;
         line-height: 65px;
-    }
-
-    .home_image {
-        width: 350px;
-        aspect-ratio: 1/1;
     }
 }
