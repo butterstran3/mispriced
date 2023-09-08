@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./companyCTA.css";
 
 const CompanyCTA = () => {
@@ -11,7 +12,7 @@ const CompanyCTA = () => {
                         Join our exclusive discord server now to start beating the bookies today! Don’t settle for guesswork when you can rely on proven results.
                     </p>
                 </div>
-                <button className="CTA_btn btn">Try Mispriced for free</button>
+                <Link className="CTA_btn btn" to="https://launchpass.com/mispriced/free-trial">Try Mispriced for free</Link>
             </div>
         </div>
     )

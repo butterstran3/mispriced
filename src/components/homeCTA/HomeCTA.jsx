@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"
 import "./homeCTA.css";
 
 const HomeCTA = () => {
@@ -12,9 +13,7 @@ const HomeCTA = () => {
                         Don’t settle for guesswork when you can rely on proven results.
                     </p>
                 </div>
-                <button className="homeCTA_btn btn">
-                    Try Mispriced for free
-                </button>
+                <Link className="homeCTA_btn btn" to="https://launchpass.com/mispriced/free-trial">Try Mispriced for free</Link>
             </div>
         </div>
     )

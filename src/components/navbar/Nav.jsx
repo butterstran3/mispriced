@@ -23,7 +23,7 @@ const Nav = () => {
                 <div className="nav_contents">
                     <NavLink className="nav_content" to="/pricing">Pricing</NavLink>
                     <NavLink className="nav_content" to="/howItWorks">How it works</NavLink>
-                    <Link className="nav_btn btn">Try Mispriced for free</Link>
+                    <Link className="nav_btn btn" to="https://launchpass.com/mispriced/free-trial">Try Mispriced for free</Link>
                 </div>
                 <div className="mobile_menu">
                     <div className="hamburger" onClick={toggle}>

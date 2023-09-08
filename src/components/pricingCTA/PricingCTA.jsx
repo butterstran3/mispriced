@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./pricingCTA.css";
 
 const PricingCTA = () => {
@@ -13,7 +14,7 @@ const PricingCTA = () => {
                         Contact us <a className="email_link" href="mailto:contact@mispriced.io">here</a> and we’ll go from there!
                     </p>
                 </div>
-                <button className="CTA_btn btn">Try Mispriced for free</button>
+                <Link className="CTA_btn btn" to="https://launchpass.com/mispriced/free-trial">Try Mispriced for free</Link>
             </div>
         </div>
     )
