@@ -12,12 +12,19 @@ const Nav = () => {
         menu.classList.toggle("open")
     };
 
+    const clickHome = () => {
+        let button = document.querySelector(".hamburger")
+        button.classList.remove("open")
+        let menu = document.querySelector(".mobile_contents")
+        menu.classList.remove("open")
+    }
+
     return (
         <nav className="container">
             <div className="nav_container">
                 <div className="nav_logo">
                     <NavLink to="/">
-                        <img alt="logo" className="logo" src={logo}/>
+                        <img alt="logo" className="logo" src={logo} onClick={clickHome}/>
                     </NavLink>
                 </div>
                 <div className="nav_contents">
