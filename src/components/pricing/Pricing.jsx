@@ -1,6 +1,7 @@
 import { useState, React }  from "react";
 import "./pricing.css";
 import { HiOutlineExclamationCircle } from "react-icons/hi";
+import { AiFillStar } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import Tooltip from "../tooltip/Tooltip";
 
@@ -61,7 +62,13 @@ const Pricing = () => {
                     <div className="pricing_card">
                         <div className="plan_info">
                             <div className="pricing_plan">
-                                <h2>Premium</h2>
+                                <div className="plan_header">
+                                    <h2>Premium</h2>
+                                    <div className="ribbon">
+                                        <AiFillStar/>
+                                        <p>MOST POPULAR</p>
+                                    </div>
+                                </div>
                                 <div className="weekly_price">
                                     <h1 className="price">$69</h1>
                                     <h3>/ week</h3>

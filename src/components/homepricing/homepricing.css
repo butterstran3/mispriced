@@ -18,6 +18,19 @@
     gap: 48px;
 }
 
+.ribbon {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: var(--color-orange);
+    color: white;
+    font-size: 0.7rem;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 1rem 0;
+}
+
 .pricing_intro {
     display: flex;
     height: 656px;
@@ -34,6 +47,14 @@
     align-items: flex-start;
     gap: 32px;
     align-self: stretch;
+}
+
+.plan_header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: space-between;
 }
 
 .weekly_price h3 {
@@ -114,7 +135,6 @@
     padding: 64px 32px;
     flex-direction: column;
     align-items: center;
-    gap: 56px;
     background: #FEFEFE;
     box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.15);
 }
