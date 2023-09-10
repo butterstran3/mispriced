@@ -51,9 +51,9 @@
 .started_info p {
     color: #000;
     font-family: 'Roboto Mono', monospace;
-    font-size: 16px;
     font-style: normal;
     font-weight: 400;
+    font-size: 16px;
     line-height: 24px;
 }
 
