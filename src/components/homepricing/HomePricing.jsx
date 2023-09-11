@@ -33,9 +33,13 @@ const HomePricing = () => {
                             let annual = document.querySelector(".annual")
                             let discount = document.querySelector(".discount_text")
                             let price = document.querySelector(".price")
+                            let ribbon = document.querySelector(".ribbon")
+                            let card = document.querySelector(".annual_card")
                             toggle.classList.toggle("active")
                             month.classList.toggle("active")
                             annual.classList.toggle("active")
+                            ribbon.classList.toggle("open")
+                            card.classList.toggle("open")
                             if (month.classList.contains("active")) {
                                 discount.innerHTML = "Billed monthly. Save 10%."
                                 price.innerHTML = "$69"
@@ -68,15 +72,17 @@ const HomePricing = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="price_card">
+                        <div className="price_card annual_card">
+                            <div className="ribbon_container">
+                                <div className="ribbon">
+                                    <AiFillStar/>
+                                    <p>MOST POPULAR</p>
+                                </div>
+                            </div>
                             <div className="plan_info">
                                 <div className="pricing_plan">
                                     <div className="plan_header">
                                         <h2>Premium</h2>
-                                        <div className="ribbon">
-                                            <AiFillStar/>
-                                            <p>MOST POPULAR</p>
-                                        </div>
                                     </div>
                                     <div className="weekly_price">
                                         <h1 className="price">$69</h1>

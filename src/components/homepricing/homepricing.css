@@ -19,7 +19,7 @@
 }
 
 .ribbon {
-    display: flex;
+    display: none;
     padding: 10px;
     justify-content: center;
     align-items: center;
@@ -28,7 +28,20 @@
     color: white;
     font-size: 0.7rem;
     font-family: 'Roboto Mono', monospace;
-    border-radius: 1rem 0;
+    font-weight: 500;
+    width: 42%;
+    margin-left: auto;
+}
+
+.ribbon.open {
+    display: flex;
+
+}
+
+.ribbon_container {
+    width: 100%;
+    text-align: right;
+    display: flex;
 }
 
 .pricing_intro {
@@ -139,6 +152,10 @@
     box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.15);
 }
 
+.annual_card.open {
+    padding: 29.5px 32px 64px 32px;
+}
+
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1500px) {
     .pricing_content {
@@ -180,7 +197,8 @@
     }
 
     .price_card {
-        padding: 64px 24px;
+        padding: 64px 32px;
+        width: 364px !important;
     }
 
     .price_toggle {
@@ -235,5 +253,14 @@
         justify-content: center;
         align-items: center;
         max-width: 100%;
+    }
+
+    .price_card {
+        width: 324px;
+    }
+
+    .ribbon {
+        width: 42%;
+        font-size: 0.55rem;
     }
 }
