@@ -11,6 +11,10 @@ const Nav = () => {
         button.classList.toggle("open")
         let menu = document.querySelector(".mobile_contents")
         menu.classList.toggle("open")
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
     };
 
     const clickHome = () => {

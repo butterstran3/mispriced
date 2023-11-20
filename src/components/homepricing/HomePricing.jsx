@@ -9,6 +9,13 @@ const HomePricing = () => {
 
     const [annually, setAnnually] = useState(false)
 
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    };
+
     return (
         <div className="home_pricing_container">
             <div className="pricing_content">
@@ -20,7 +27,7 @@ const HomePricing = () => {
                         </p>
                     </div>
                     <div className="btn_container">
-                        <Link className="price_btn btn" to="/pricing">See full pricing details</Link>
+                        <Link className="price_btn btn" to="/racing" onClick={scrollToTop}>See full pricing details</Link>
                     </div>
                 </div>
                 <div className="price_component">
