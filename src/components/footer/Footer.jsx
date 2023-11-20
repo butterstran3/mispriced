@@ -6,12 +6,20 @@ import {BsInstagram} from 'react-icons/bs';
 import {BsDiscord} from 'react-icons/bs';
 
 const Footer = () => {
+
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    };
+
     return (
         <div className="footer_container">
             <div className="footer_content">
                 <div className="icon_column">
                     <Link to="/">
-                        <img className="footer_logo" alt="logo" src={logo}/>
+                        <img className="footer_logo" alt="logo" src={logo} onClick={scrollToTop}/>
                     </Link>
                     <div className="icons_container">
                         <p>© 2023 Mispriced</p>
@@ -24,13 +32,14 @@ const Footer = () => {
                 <div className="footer_pages">
                     <div className="product_column">
                         <p>Product</p>
-                        <Link className="footer_link" to="/pricing">Pricing</Link>
-                        <Link className="footer_link" to="howItWorks">How it works</Link>
-                        <Link className="footer_link" to="/services">Other services</Link>
+                        <Link className="footer_link" to="/racing" onClick={scrollToTop}>Racing</Link>
+                        <Link className="footer_link" to="/nba" onClick={scrollToTop}>NBA</Link>
+                        <Link className="footer_link" to="howItWorks" onClick={scrollToTop}>How it works</Link>
+                        <Link className="footer_link" to="/services" onClick={scrollToTop}>Other services</Link>
                     </div>
                     <div className="company_column">
                         <p>Company</p>
-                        <Link className="footer_link" to="/company">About</Link>
+                        <Link className="footer_link" to="/company" onClick={scrollToTop}>About</Link>
                     </div>
                 </div>
             </div>
