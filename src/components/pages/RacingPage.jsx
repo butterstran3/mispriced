@@ -4,10 +4,10 @@ import PricingHeader from "../pricingHeader/PricingHeader";
 import Guarantee from "../guarantee/Guarantee";
 import PricingCTA from "../pricingCTA/PricingCTA";
 
-const PricingPage = () => {
+const RacingPage = () => {
     return (
         <>
-            <PricingHeader/>
+            <PricingHeader heading="Racing Memberships"/>
             <Pricing/>
             <Guarantee/>
             <PricingCTA/>
@@ -15,4 +15,4 @@ const PricingPage = () => {
     )
 }
 
-export default PricingPage;
+export default RacingPage;

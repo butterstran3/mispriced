@@ -1,6 +1,6 @@
 import { useState, React }  from "react";
 import "./pricing.css";
-import { HiOutlineExclamationCircle } from "react-icons/hi";
+import { GrCircleInformation } from "react-icons/gr";
 import { AiFillStar } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import Tooltip from "../tooltip/Tooltip";
@@ -93,7 +93,7 @@ const Pricing = () => {
                                 <div className="feature">
                                     Fred
                                     <Tooltip text="Fred is our automated betting bot, allowing members to bet more frequently (no manual work).">
-                                        <HiOutlineExclamationCircle/>
+                                        <GrCircleInformation/>
                                     </Tooltip>
                                 </div>
                             </div>

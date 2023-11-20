@@ -2,12 +2,12 @@ import React from "react";
 import "./pricingHeader.css";
 import checkbox from "../../assets/checkbox.svg";
 
-const PricingHeader = () => {
+const PricingHeader = ({heading}) => {
     return (
         <div className="header_container">
             <div className="pricingHeader_content">
                 <div className="pricingHeader_info">
-                    <h1 className="pricing_heading">Ready to get started?</h1>
+                    <h1 className="pricing_heading">{heading}</h1>
                     <p className="pricing_subheading">Our pricing plans are affordable and tailored to your needs. Choose a plan that works best for you.</p>
                 </div>
                 <div className="pricing_features">

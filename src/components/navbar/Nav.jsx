@@ -2,6 +2,7 @@ import React from "react";
 import "./nav.css";
 import { NavLink, Link } from "react-router-dom";
 import logo from "../../assets/logo.svg";
+import { FaChevronDown } from "react-icons/fa"; 
 
 const Nav = () => {
 
@@ -28,7 +29,16 @@ const Nav = () => {
                     </NavLink>
                 </div>
                 <div className="nav_contents">
-                    <NavLink className="nav_content" to="/pricing">Pricing</NavLink>
+                    <div className="dropdown">
+                        <button className="dropbtn nav_content">
+                            Pricing
+                            <FaChevronDown className="dropdown_arrow"/>
+                        </button>
+                        <div className="dropdown_content">
+                            <NavLink to="/racing">Racing</NavLink>
+                            <NavLink to="/nba">NBA</NavLink>
+                        </div>
+                    </div>
                     <NavLink className="nav_content" to="/howItWorks">How it works</NavLink>
                     <Link className="nav_btn btn" to="https://launchpass.com/mispriced/free-trial">Try Mispriced for free</Link>
                 </div>
@@ -39,7 +49,8 @@ const Nav = () => {
                         <div className="bar_3"></div>
                     </div>
                     <div className="mobile_contents">
-                        <NavLink className="mobile_content" to="/pricing" onClick={toggle}>Pricing</NavLink>
+                        <NavLink className="mobile_content" to="/racing" onClick={toggle}>Racing</NavLink>
+                        <NavLink className="mobile_content" to="/nba" onClick={toggle}>NBA</NavLink>
                         <NavLink className="mobile_content" to="/howItWorks" onClick={toggle}>How it works</NavLink>
                         <Link className="mobile_btn btn" onClick={toggle}>Try Mispriced for free</Link>
                     </div>

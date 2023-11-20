@@ -1,0 +1,51 @@
+.nba_container {
+    display: flex;
+    width: 100%;
+    padding: 97.5px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nba_content {
+    display: flex;
+    width: 65%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.nba_heading {
+    color: var(--color-black);
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 73.2px;
+    letter-spacing: 0.6px;
+}
+
+.nba_info {
+    color: #000;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px;
+}
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+    .nba_content {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nba_heading {
+        font-size: 34px;
+        text-align: left;
+    }
+}
