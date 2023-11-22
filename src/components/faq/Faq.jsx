@@ -16,22 +16,24 @@ const Faq = () => {
 
     return (
         <div className="faq_container">
-            <div className="faq_header">
-                <h1>Frequently asked questions</h1>
-                <p>Have questions? We're here to help</p>
-            </div>
-            <div className="faq_list">
-                {data.map((item, i) => (
-                    <div className="faq">
-                        <div className="question" onClick={() => toggle(i)}>
-                            <h3>{item.question}</h3>
-                            <img alt="plus" className="plus" src={selected === i ? minus : plus}/>
+            <div className="faq_inner">
+                <div className="faq_header">
+                    <h1>Frequently asked questions</h1>
+                    <p>Have questions? We're here to help</p>
+                </div>
+                <div className="faq_list">
+                    {data.map((item, i) => (
+                        <div className="faq">
+                            <div className="question" onClick={() => toggle(i)}>
+                                <h3>{item.question}</h3>
+                                <img alt="plus" className="plus" src={selected === i ? minus : plus}/>
+                            </div>
+                            <div className={selected === i ? "answer active" : "answer"}>
+                                <p>{item.answer}</p>
+                            </div>
                         </div>
-                        <div className={selected === i ? "answer active" : "answer"}>
-                            <p>{item.answer}</p>
-                        </div>
-                    </div>
-                ))}
+                    ))}
+                </div>
             </div>
         </div>
     )

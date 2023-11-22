@@ -8,6 +8,15 @@
     gap: 63px;
 }
 
+.faq_inner {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 63px;
+}
+
 .faq_header {
     display: flex;
     width: 65%;
@@ -90,6 +99,14 @@
     max-height: 1000px;
     padding: 0 48px 32px 48px;
     transition: all 0.1s ease-in;
+}
+
+/* MEDIA QUERIES (LARGER THAN 1080p) */
+@media screen and (min-width: 1921px) {
+    .faq_inner {
+        width: 1920px;
+        margin: 0 auto;
+    }
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */

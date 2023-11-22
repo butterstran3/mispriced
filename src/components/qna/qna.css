@@ -8,6 +8,15 @@
     background: var(--color-black);
 }
 
+.qna_inner {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .qna_content {
     display: flex;
     width: 65%;
@@ -54,6 +63,13 @@
     line-height: 24px;
     flex: 1 0 0;
     align-self: stretch;
+}
+
+@media screen and (min-width: 1921px) {
+    .qna_inner {
+        width: 1920px;
+        margin: 0 auto;
+    }
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */

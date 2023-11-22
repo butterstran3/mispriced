@@ -8,6 +8,14 @@
     background: #FEFEFE;
 }
 
+.started_inner {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .started_content {
     display: flex;
     width: 65%;
@@ -66,6 +74,14 @@
     line-height: 19.2px;
     cursor: pointer;
     background: none;
+}
+
+/* MEDIA QUERIES (LARGER THAN 1080p) */
+@media screen and (min-width: 1921px) {
+    .started_inner {
+        width: 1920px;
+        margin: 0 auto;
+    }
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
