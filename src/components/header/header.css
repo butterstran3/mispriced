@@ -7,6 +7,13 @@
     align-items: center;
 }
 
+.header_inner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .header_content {
     display: flex;
     width: 65%;
@@ -36,6 +43,14 @@
     font-weight: 400;
     line-height: 24px;
     width: 60%;
+}
+
+@media screen and (min-width: 1921px) {
+    .header_inner {
+        width: 1920px;
+        margin: 0 auto; 
+    }
+
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */

@@ -8,6 +8,15 @@
     background: var(--color-black);
 }
 
+.servicesCTA_inner {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .servicesCTA_content {
     display: flex;
     flex-direction: column;
@@ -16,6 +25,16 @@
     gap: 64px;
     align-self: stretch;
 }
+
+
+/* MEDIA QUERIES (LARGER THAN 1080p) */
+@media screen and (min-width: 1921px) {
+    .servicesCTA_inner {
+        width: 1920px; /* Fixed width for 1080p resolution */
+        margin: 0 auto; /* Center the content */
+    }
+}
+
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {

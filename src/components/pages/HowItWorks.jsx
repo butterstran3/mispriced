@@ -10,7 +10,7 @@ import Qna from "../qna/Qna";
 const HowItWorks = () => {
     return (
         <>
-            <Header title="How it works" subtitle="Join the Mispriced community on Discord or the web, where betting enthusiasts..."/>
+            <Header title="How it works" subtitle="Join the Mispriced community in Discord, where betting enthusiasts gather to access exclusive tips, engage in live discussions about upcoming games, and get expert advice to enhance their betting skills."/>
             <Invite/>
             <Started/>
             <Subscribe/>

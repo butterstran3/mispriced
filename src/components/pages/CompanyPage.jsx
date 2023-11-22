@@ -6,7 +6,7 @@ import Header from "../header/Header";
 const CompanyPage = () => {
     return (
         <>
-            <Header title="Our Company" subtitle="Eets."/>
+            <Header title="Our Company"/>
             <Company/>
             <CompanyCTA/>
         </>

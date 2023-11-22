@@ -12,8 +12,6 @@ const NbaInfo = () => {
                     <br></br>
                     With this quantifiable edge, you can be confident that the bets you place are +EV and will lead to long term profitability. Starting in February 2023, our NBA Package has reached an impressive milestone, exceeding 100+ units by the close of the regular season. Nevertheless, it's crucial to acknowledge that last season's performance only provides a partial perspective.
                     <br></br>
-                    <br></br>
-                    Please note, our NBA Package is only valid for the pre-season, regular season and awards. Playoffs will not be tipped.
                 </p>
             </div>
         </div>

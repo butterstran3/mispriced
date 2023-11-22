@@ -20,6 +20,13 @@
     align-items: center;
 }
 
+.nav_inner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .nav_logo {
     display: flex;
     padding: 10px;
@@ -169,6 +176,14 @@
 .dropdown:hover .dropbtn {
     color: var(--color-orange);
     background: var(--color-white);
+}
+
+/* MEDIA QUERIES (LARGER THAN 1080p) */
+@media screen and (min-width: 1921px) {
+    .nav_inner {
+        width: 1920px;
+        margin: 0 auto;
+    }
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */

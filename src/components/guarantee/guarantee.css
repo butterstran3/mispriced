@@ -8,6 +8,15 @@
     background: #fefefe;
 }
 
+.guarantee_inner {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .guarantee_content {
     display: flex;
     width: 65%;
@@ -54,6 +63,14 @@
     line-height: 24px;
     flex: 1 0 0;
     align-self: stretch;
+}
+
+/* MEDIA QUERIES (LARGER THAN 1080p) */
+@media screen and (min-width: 1921px) {
+    .guarantee_inner {
+        width: 1920px; /* Fixed width for 1080p resolution */
+        margin: 0 auto; /* Center the content */
+    }
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */

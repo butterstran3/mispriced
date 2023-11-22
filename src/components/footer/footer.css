@@ -8,6 +8,13 @@
     gap: 10px;
 }
 
+.footer_inner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .footer_content {
     display: flex;
     width: 65%;
@@ -121,6 +128,14 @@
     display: flex;
     flex-direction: row;
     gap: 178px;
+}
+
+/* MEDIA QUERIES (LARGER THAN 1080p) */
+@media screen and (min-width: 1921px) {
+    .footer_inner {
+        width: 1920px; /* Fixed width for 1080p resolution */
+        margin: 0 auto; /* Center the content */
+    }
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */

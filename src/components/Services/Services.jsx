@@ -12,7 +12,7 @@ const Services = () => {
                     <h1>What else can we do for you?</h1>
                 </div>
                 <div className="card_container">
-                    <div className="card">
+                    {/* <div className="card">
                         <div className="card_content">
                             <h4>Fred (Automated Betting)</h4>
                             <p>We also provide an option for users to set up a budget and subscribe to automated betting, which will automatically place the bet for them on their behalf.</p>
@@ -20,7 +20,7 @@ const Services = () => {
                         <div className="card_image">
                             <img alt="fred" src={fred}></img>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="card_reverse">
                         <div className="card_content">
                             <h4>Bespoke Software Solutions</h4>

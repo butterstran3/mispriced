@@ -3,6 +3,9 @@ import "./nbaprice.css";
 import { Link } from "react-router-dom";
 import { AiFillStar } from "react-icons/ai";
 
+const weeklyPlanURL = "https://launchpass.com/mispriced/nba-weekly";
+const monthlyPlanURL = "https://launchpass.com/mispriced/nba-monthly";
+
 const NbaPrice = () => {
         
     const [annually, setAnnually] = useState(false)
@@ -69,7 +72,7 @@ const NbaPrice = () => {
                                 <div className="feature">Awards</div>
                             </div>
                             <div className="btn_container">
-                                <Link className="pricing_btn btn" to="https://launchpass.com/mispriced/monthly-membership">Select plan</Link>
+                                <Link className="pricing_btn btn" to={annually ? monthlyPlanURL : weeklyPlanURL}>Select plan</Link>
                             </div>
                         </div>
                     </div>

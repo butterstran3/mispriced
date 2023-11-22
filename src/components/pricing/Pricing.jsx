@@ -5,6 +5,9 @@ import { AiFillStar } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import Tooltip from "../tooltip/Tooltip";
 
+const monthlyPlanURL = "https://launchpass.com/mispriced/racing-monthly";
+const annualPlanURL = "https://launchpass.com/mispriced/racing-yearly";
+
 const Pricing = () => {
     
     const [annually, setAnnually] = useState(false)
@@ -60,7 +63,7 @@ const Pricing = () => {
                             </div>
                         </div>
                         <div className="button_container">
-                            <Link className="pricing_btn btn" to="https://launchpass.com/mispriced/weekly-membership">Select plan</Link>
+                            <Link className="pricing_btn btn" to="https://launchpass.com/mispriced/racing-weekly">Select plan</Link>
                         </div>
                     </div>
                     <div className="pricing_card annual_card">
@@ -98,7 +101,7 @@ const Pricing = () => {
                                 </div>
                             </div>
                             <div className="btn_container">
-                                <Link className="pricing_btn btn" to="https://launchpass.com/mispriced/monthly-membership">Select plan</Link>
+                            <Link className="pricing_btn btn" to={annually ? annualPlanURL : monthlyPlanURL}>Select plan</Link>
                             </div>
                         </div>
                     </div>
