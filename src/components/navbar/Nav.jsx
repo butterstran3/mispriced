@@ -45,7 +45,7 @@ const Nav = () => {
                             </div>
                         </div>
                         <NavLink className="nav_content" to="/howItWorks">How it works</NavLink>
-                        <Link className="nav_btn btn" to="https://launchpass.com/mispriced/free-trial">Try Mispriced for free</Link>
+                        <Link className="nav_btn btn" to="https://discord.gg/VR3ncXNzG6">Try Mispriced now</Link>
                     </div>
                     <div className="mobile_menu">
                         <div className="hamburger" onClick={toggle}>
@@ -57,7 +57,7 @@ const Nav = () => {
                             <NavLink className="mobile_content" to="/racing" onClick={toggle}>Racing</NavLink>
                             <NavLink className="mobile_content" to="/nba" onClick={toggle}>NBA</NavLink>
                             <NavLink className="mobile_content" to="/howItWorks" onClick={toggle}>How it works</NavLink>
-                            <Link className="mobile_btn btn" onClick={toggle}>Try Mispriced for free</Link>
+                            <Link className="mobile_btn btn" onClick={toggle}>Try Mispriced now</Link>
                         </div>
                     </div>
                 </div>

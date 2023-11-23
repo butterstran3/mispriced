@@ -13,7 +13,7 @@ const CompanyCTA = () => {
                             Join our exclusive discord server now to start beating the bookies today! Don’t settle for guesswork when you can rely on proven results.
                         </p>
                     </div>
-                    <Link className="CTA_btn btn" to="https://launchpass.com/mispriced/free-trial">Try Mispriced for free</Link>
+                    <Link className="CTA_btn btn" to="https://discord.gg/VR3ncXNzG6">Try Mispriced now</Link>
                 </div>
             </div>
         </div>

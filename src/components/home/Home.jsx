@@ -11,7 +11,7 @@ const Home = () => {
                 <div className="home_info">
                     <h1>Bet faster, bet smarter</h1>
                     <p>Mispriced helps you beat the bookies and maximise your chances of winning.</p>
-                    <Link className="home_btn btn" to="https://launchpass.com/mispriced/free-trial">Try Mispriced for free</Link>
+                    <Link className="home_btn btn" to="https://discord.gg/VR3ncXNzG6">Try Mispriced now</Link>
                 </div>
                 <div className="home_image">
                     <img alt="landing" src={landing}></img>
