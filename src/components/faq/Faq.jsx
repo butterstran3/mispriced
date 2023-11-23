@@ -45,7 +45,7 @@ const data = [
         answer: "Our bots are designed to detect inefficiencies in the markets, which often occur before an event starts because individuals with inside information tend to keep it to themselves to manipulate the odds. As developers, we aim to benefit from late market fluctuations and capture all available information to identify the \"best bet\" before our bots identify a profitable wager. Simply put, due to time constraints, it's impractical for anyone to place bets on all opportunities. Our bots may identify inefficiencies very late, and sometimes the delay between the messaging service of the Discord bot API and the event start time (even if it's under one second) can hinder an individual from betting."
     },
     {
-        question: "The odds change everytime I click 'bet, is this normal?",
+        question: "The odds change everytime I click 'bet' is this normal?",
         answer: "Due to the dynamic nature of the markets seconds before jump time, the bookmakers websites may show a price, however once you click on the price it may say \"odd change\". Due to the nature of our bots, and the time constraint to post bets, we do not account for these."
     },
     {
