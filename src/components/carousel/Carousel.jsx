@@ -105,7 +105,7 @@ const Carousel = () => {
                                     <h1>"</h1>
                                     <p>
                                         The proficiency of staff at Mispriced in finding +EV tips is absolutely insane. 
-                                        Despite initial scepticism, I recouped the 4 figure lifetime membership cost within four days. 
+                                        Despite initial scepticism, I recouped the lifetime membership cost within four days. 
                                         It’s obvious that the staff genuinely aims to help everyone achieve financial success.
                                     </p>
                                 </div>
