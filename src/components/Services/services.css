@@ -9,6 +9,15 @@
     background: var(--color-white);
 }
 
+.services_inner {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
 .services_content {
     display: flex;
     width: 65%;
@@ -87,6 +96,14 @@
     width: 200px;
     height: 200px;
     flex-shrink: 0;
+}
+
+/* MEDIA QUERIES (LARGER THAN 1080p) */
+@media screen and (min-width: 1921px) {
+    .services_inner {
+        max-width: 1920px;
+        margin: 0 auto;
+    }
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
