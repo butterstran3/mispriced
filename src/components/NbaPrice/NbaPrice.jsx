@@ -67,7 +67,7 @@ const NbaPrice = () => {
                             </div>
                             <div className="plan_features">
                                 <div className="feature">Regular season tips</div>
-                                <div className="feature">Abritage opportunities</div>
+                                <div className="feature">Arbitrage opportunities</div>
                                 <div className="feature">Middle bets</div>
                                 <div className="feature">Awards</div>
                             </div>

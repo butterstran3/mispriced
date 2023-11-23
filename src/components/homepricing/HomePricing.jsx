@@ -61,7 +61,7 @@ const HomePricing = () => {
                                 </div>
                                 <div className="plan_features">
                                     <div className="feature">Regular season tips</div>
-                                    <div className="feature">Abritage Bets</div>
+                                    <div className="feature">Arbitrage Bets</div>
                                     <div className="feature">Middle Bets</div>
                                     <div className="feature">Awards Tips</div>
                                     <div className="feature">Sports Tips</div>
