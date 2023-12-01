@@ -67,9 +67,12 @@ const NbaPrice = () => {
                             </div>
                             <div className="plan_features">
                                 <div className="feature">Regular season tips</div>
-                                <div className="feature">Arbitrage opportunities</div>
-                                <div className="feature">Middle bets</div>
-                                <div className="feature">Awards</div>
+                                <div className="feature">Arbitrage Bets</div>
+                                <div className="feature">Middle Bets</div>
+                                <div className="feature">Awards Tips</div>
+                                <div className="feature">Sports Tips</div>
+                                <div className="feature">Betting tools and guides</div>
+                                <div className="feature">Punter Community</div>
                             </div>
                             <div className="btn_container">
                                 <Link className="pricing_btn btn" to={annually ? monthlyPlanURL : weeklyPlanURL}>Select plan</Link>

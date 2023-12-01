@@ -29,7 +29,7 @@
 .home_info h1 {
     color: var(--dark-grey, #212121);
     font-family: Helvetica;
-    font-size: 64px;
+    font-size: 3.75vw;
     font-style: normal;
     font-weight: 600;
     line-height: 96px;
